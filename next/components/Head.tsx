@@ -9,8 +9,7 @@ const Head = ({ customMeta }: { customMeta?: MetaProps }): JSX.Element => {
   const router = useRouter();
   const meta: MetaProps = {
     title: 'Sid Menon - Website',
-    description:
-      'Developer, Student. All-Around Epic Sender.',
+    description: 'Developer, Student. All-Around Epic Sender.',
     type: 'website',
     ...customMeta,
   };
