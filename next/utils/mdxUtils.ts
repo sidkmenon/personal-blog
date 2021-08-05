@@ -6,9 +6,9 @@ export const REPO_ROOT = execSync('git rev-parse --show-toplevel')
   .toString('utf-8')
   .trim();
 
-export const CONTENT_PATH = path.join(REPO_ROOT, 'content');
+export const POSTS_ROOT = path.join(REPO_ROOT, 'posts');
 
-export const contentFilePaths = fs
-  .readdirSync(CONTENT_PATH)
+export const postFilePaths = fs
+  .readdirSync(POSTS_ROOT)
   // Only include md(x) files
   .filter((path) => /\.mdx?$/.test(path));
