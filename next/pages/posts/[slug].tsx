@@ -13,6 +13,7 @@ import React from 'react';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import rehypeSlug from 'rehype-slug';
 import Layout from '../../components/Layout';
+import Status from '../../components/Status';
 import { MetaProps } from '../../types/layout';
 import { PostType } from '../../types/post';
 import { POSTS_ROOT, postFilePaths } from '../../utils/mdxUtils';
@@ -25,6 +26,7 @@ const components = {
   Head,
   Image,
   Link,
+  Status,
 };
 
 type PostPageProps = {

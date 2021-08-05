@@ -31,7 +31,7 @@ const Layout = ({ children, customMeta }: LayoutProps): JSX.Element => {
           Built by{' '}
           <a
             className="text-gray-900 dark:text-white"
-            href="https://twitter.com/sidkmenon"
+            href="https://www.linkedin.com/in/sidkmenon"
           >
             Sidharth Menon
           </a>
