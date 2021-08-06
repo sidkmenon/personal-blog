@@ -31,9 +31,9 @@ const PersonalInfo: React.FC = () => {
         <Link href="https://en.wikipedia.org/wiki/Roger_Federer">
           tennis enthusiast
         </Link>
-        , travel junkie, and an all-around great guy. Professionally, I&lsquo;m
-        interested in data infrastructure, machine learning, and distributed
-        systems. Please do feel free to reach out and connect!
+        , and travel junkie. Professionally, I&lsquo;m interested in data
+        infrastructure, machine learning, and distributed systems. Please feel
+        free to reach out and connect!
       </p>{' '}
       <p>Previously at:</p>
       <ul className="list-disc pl-4 my-6">
@@ -50,13 +50,13 @@ const PersonalInfo: React.FC = () => {
             Dagster and committed 15,000+ lines of tested, performant code,
             primarily using Python (Graphene), Typescript (ReactJS, GraphQL,
             Apollo), and Kubernetes (Helm).
-            <br />I authored the dagster-mysql library to onboard a large (~$30B
-            market cap) enterprise user, and the dagster-graphql client library
-            which addressed the most liked Github issue on the open source
-            project <br /> I also collaborated on development of a hosted cloud
-            product and responsible for the design and implementation of the
-            audit log feature, which provides insight into user actions on a
-            Dagster Cloud deployment.
+            <br />I authored the dagster-mysql library to onboard the first user
+            at a large (~$30B market cap) company, and the dagster-graphql
+            client library which addressed the most liked Github issue on the
+            open source project <br /> I also collaborated on development of a
+            hosted cloud product and responsible for the design and
+            implementation of the audit log feature, which provides insight into
+            user actions on a Dagster Cloud deployment.
           </MouseOverPopover>{' '}
         </li>
         <li className="mt-2">

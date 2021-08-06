@@ -40,7 +40,7 @@ const Layout = ({ children, customMeta }: LayoutProps): JSX.Element => {
           and{' '}
           <a
             className="text-gray-900 dark:text-white"
-            href="https://nextjs.org/"
+            href="https://vercel.com/"
           >
             Vercel
           </a>
