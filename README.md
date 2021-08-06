@@ -1,8 +1,8 @@
 # Sid's Personal Blog
 
-A personal blog built with `Next.js`, `MDX`, and `Typescript`. 
+A personal blog built with `Next.js`, `MDX`, and `Typescript`, and deployed with `Vercel`.
 
-Blog starter forked from [next-js-mdx-blog](https://github.com/ChangoMan/nextjs-typescript-mdx-blog).
+Blog starter forked from [next-js-mdx-blog](https://github.com/ChangoMan/nextjs-typescript-mdx-blog). Also drew heavy inspiration from my good friend Ketan Agrawal's [blog](https://ketan.me).
 
 ## Structure:
 
