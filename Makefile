@@ -10,3 +10,5 @@ lint:
 type-check:
 	cd next; yarn type-check; cd ..;
 
+vercel-build:
+	cd next; yarn install; yarn build;
