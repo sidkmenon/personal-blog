@@ -1,9 +1,9 @@
 # dependencies
-/next/node_modules
+node_modules
 
 # next.js
-/next/.next/
-/next/out/
+.next/
+out/
 
 # production
 /build

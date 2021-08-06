@@ -32,8 +32,7 @@ export const About = (): JSX.Element => {
         </Link>
         , travel junkie, and an all-around great guy. Professionally, I&lsquo;m
         interested in data infrastructure, machine learning, and distributed
-        systems. <br /> Please do feel free to reach out at any of the below
-        contacts!
+        systems. <br /> Please do feel free to reach out and connect!
       </p>
       <p>Previously at:</p>
       <ul className="list-disc pl-4 my-6">
