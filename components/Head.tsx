@@ -3,14 +3,27 @@ import { useRouter } from 'next/router';
 import React from 'react';
 import { MetaProps } from '../types/layout';
 
-export const WEBSITE_HOST_URL = 'https://nextjs-typescript-mdx-blog.vercel.app';
+export const WEBSITE_HOST_URL = 'https://personal-blog-sidkmenon.vercel.app/';
 
 const Head = ({ customMeta }: { customMeta?: MetaProps }): JSX.Element => {
   const router = useRouter();
   const meta: MetaProps = {
+    author: 'Sidharth Menon',
     title: 'Sid Menon - Website',
     description: 'Developer, Student, All-Around Epic Sender.',
     type: 'website',
+    keywords: [
+      'sidharth',
+      'menon',
+      'sid',
+      'sidkmenon',
+      'software',
+      'engineer',
+      'engineering',
+      'machine',
+      'learning',
+      'harvard',
+    ],
     ...customMeta,
   };
 
@@ -18,6 +31,9 @@ const Head = ({ customMeta }: { customMeta?: MetaProps }): JSX.Element => {
     <NextHead>
       <title>{meta.title}</title>
       <meta content={meta.description} name="description" />
+      <meta name="author" content={meta.author} />
+      <meta name="keywords" content={meta.keywords.join(', ')} />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta property="og:url" content={`${WEBSITE_HOST_URL}${router.asPath}`} />
       <link rel="canonical" href={`${WEBSITE_HOST_URL}${router.asPath}`} />
       <meta property="og:type" content={meta.type} />

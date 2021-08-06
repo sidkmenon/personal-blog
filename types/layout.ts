@@ -5,5 +5,7 @@ export interface MetaProps
   /**
    * For the meta tag `og:type`
    */
+  author?: string;
   type?: string;
+  keywords?: string[];
 }

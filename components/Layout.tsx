@@ -11,7 +11,7 @@ type LayoutProps = {
 
 // TODO: Sid:: Theme Switcher
 
-export const WEBSITE_HOST_URL = 'https://nextjs-typescript-mdx-blog.vercel.app';
+export const WEBSITE_HOST_URL = 'https://personal-blog-sidkmenon.vercel.app/';
 
 const Layout = ({ children, customMeta }: LayoutProps): JSX.Element => {
   return (
