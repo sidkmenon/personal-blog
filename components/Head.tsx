@@ -10,7 +10,8 @@ const Head = ({ customMeta }: { customMeta?: MetaProps }): JSX.Element => {
   const meta: MetaProps = {
     author: 'Sidharth Menon',
     title: 'Sid Menon - Website',
-    description: 'Developer, Student, All-Around Epic Sender.',
+    description:
+      'My personal blog, built with Next.js and deployed with Vercel',
     type: 'website',
     keywords: [
       'sidharth',
