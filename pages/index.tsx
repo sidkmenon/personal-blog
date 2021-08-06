@@ -5,6 +5,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import { getAllPosts } from '../lib/api';
 import { PostType } from '../types/post';
+import PersonalInfo from '../components/PersonalInfo';
 
 type IndexProps = {
   posts: PostType[];
@@ -13,18 +14,8 @@ type IndexProps = {
 export const Index = ({ posts }: IndexProps): JSX.Element => {
   return (
     <Layout>
-      <h1>Home Page</h1>
-      <p>
-        Hi! My name is Sid Menon. This is my blog, where I&lsquo;ll discuss
-        thoughts on tech, literature, cooking, and my other hobbies.{' '}
-      </p>{' '}
-      <p>
-        {' '}
-        To learn a little bit more about me, please check out the{' '}
-        <Link href={'/about'}>About Page</Link>. Otherwise, feel free to check
-        out my posts below, or check out what I&lsquo;m{' '}
-        <Link href="/posts/reading-list">currently reading</Link>.
-      </p>
+      <PersonalInfo />
+      <h2>Blog</h2>
       {posts.map((post) => (
         <article key={post.slug} className="mt-12">
           <p className="mb-1 text-sm text-gray-500 dark:text-gray-400">

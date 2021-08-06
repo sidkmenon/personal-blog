@@ -1,28 +1,29 @@
-import React from 'react';
-import Layout from '../components/Layout';
-import MouseOverPopover from '../components/MouseOverPopover';
-import Image from 'next/image';
 import Link from 'next/link';
+import React from 'react';
+import Image from 'next/image';
+import MouseOverPopover from '../components/MouseOverPopover';
 
-export const About = (): JSX.Element => {
+const PersonalInfo: React.FC = () => {
   return (
-    <Layout
-      customMeta={{
-        title: 'About - Sid Menon',
-      }}
-    >
-      <h1>About Page</h1>
-      <Image
-        alt={'Profile Picture'}
-        src={'/images/profile-picture.jpg'}
-        width={300}
-        height={300}
-        layout={'intrinsic'}
-        priority
-      />
+    <>
+      <div
+        className="flex justify-center items-center"
+        style={{ marginBottom: '2rem' }}
+      >
+        <Image
+          alt={'Profile Picture'}
+          src={'/images/profile-picture.jpg'}
+          width={400}
+          height={400}
+          layout={'intrinsic'}
+          className={'rounded-full'}
+          priority
+        />
+      </div>
+      <h2 style={{ marginBottom: '1rem' }}>About</h2>
       <p>
-        I&lsquo;m a senior at Harvard college, studying Computer Science and
-        Math. I&lsquo;m an{' '}
+        Hi! My name is Sid Menon. I&lsquo;m a senior at Harvard college,
+        studying Computer Science and Math. I&lsquo;m an{' '}
         <Link href="https://www.instagram.com/sidkmenon_cooks/">
           amateur chef
         </Link>
@@ -32,8 +33,8 @@ export const About = (): JSX.Element => {
         </Link>
         , travel junkie, and an all-around great guy. Professionally, I&lsquo;m
         interested in data infrastructure, machine learning, and distributed
-        systems. <br /> Please do feel free to reach out and connect!
-      </p>
+        systems. Please do feel free to reach out and connect!
+      </p>{' '}
       <p>Previously at:</p>
       <ul className="list-disc pl-4 my-6">
         <li className="mt-2">
@@ -117,8 +118,8 @@ export const About = (): JSX.Element => {
           </MouseOverPopover>{' '}
         </li>
       </ul>
-    </Layout>
+    </>
   );
 };
 
-export default About;
+export default PersonalInfo;
