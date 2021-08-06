@@ -29,9 +29,9 @@ const PersonalInfo: React.FC = () => {
         </Link>
         ,{' '}
         <Link href="https://en.wikipedia.org/wiki/Roger_Federer">
-          tennis enthusiast
+          tennis fan
         </Link>
-        , and travel junkie. Professionally, I&lsquo;m interested in solving
+        , and travel enthusiast. Professionally, I&lsquo;m interested in solving
         problems using data infrastructure, machine learning, and distributed
         systems. Please feel free to reach out and connect!
       </p>{' '}
@@ -46,10 +46,10 @@ const PersonalInfo: React.FC = () => {
               </span>
             }
           >
-            At Elementl, I was a full-time contributor to open-source project{' '}
-            Dagster and committed 15,000+ lines of tested, performant code,
-            primarily using Python (Graphene), Typescript (ReactJS, GraphQL,
-            Apollo), and Kubernetes (Helm).
+            At Elementl, I was a full-time contributor to the open-source
+            project Dagster and committed 15,000+ lines of tested, performant
+            code, primarily using Python (Graphene), Typescript (ReactJS,
+            GraphQL, Apollo), and Kubernetes (Helm).
             <br />I authored the dagster-mysql library to onboard the first user
             at a large (~$30B market cap) company, and the dagster-graphql
             client library which addressed the most liked Github issue on the
@@ -68,12 +68,11 @@ const PersonalInfo: React.FC = () => {
               </span>
             }
           >
-            At AWS, I worked in the Supply Chain org in a full stack role. I
-            automated two common search queries and revitalized a legacy web
-            application, reducing query latency by at least three orders of
-            magnitude for AWS supply chain customers. I utilized Java server
-            APIs, Elasticsearch, and a new frontend page using Typescript
-            (ReactJS, GraphQL, Apollo). <br /> I also designed Order Tracker
+            At AWS, I automated two common search queries and revitalized a
+            legacy web application, reducing query latency by at least three
+            orders of magnitude for AWS supply chain customers. I utilized Java
+            server APIs, Elasticsearch, and a new frontend page using Typescript
+            (ReactJS, GraphQL, Apollo). <br /> I also designed an Order Tracker
             microservice requiring highly available, real-time search across
             millions of documents using a variety of AWS technologies, including
             Elasticsearch and DynamoDB.
