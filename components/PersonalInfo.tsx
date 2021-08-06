@@ -31,9 +31,9 @@ const PersonalInfo: React.FC = () => {
         <Link href="https://en.wikipedia.org/wiki/Roger_Federer">
           tennis enthusiast
         </Link>
-        , and travel junkie. Professionally, I&lsquo;m interested in data
-        infrastructure, machine learning, and distributed systems. Please feel
-        free to reach out and connect!
+        , and travel junkie. Professionally, I&lsquo;m interested in solving
+        problems using data infrastructure, machine learning, and distributed
+        systems. Please feel free to reach out and connect!
       </p>{' '}
       <p>Previously at:</p>
       <ul className="list-disc pl-4 my-6">
